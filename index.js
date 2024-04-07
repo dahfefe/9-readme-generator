@@ -8,7 +8,6 @@
 // Calling required file system and NPM package (Inquirer)
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdownExt = require('./utils/generateMarkdown');
 
 // function that creates markdown text with literals to input user responses from command-line prompts
 const generateReadme = 
@@ -210,13 +209,6 @@ inquirer
   // .then function asynchronously collects responses from user input
   .then((responses) => {
     const readMeContent = generateReadme(responses);
-
-    /*
-    let template = fs.readFile("README.md", "utf8");
-    console.log(template);
-    template = template.replace("{{ renderLicenseBadge(license) }}", renderLicenseBadge(license));
-    console.log(responses.license);
-    */
 
     // writeFile function generates README file from user responses and error logging to aid in troubleshooting
     fs.writeFile('README_auto.md', readMeContent, (err) =>
