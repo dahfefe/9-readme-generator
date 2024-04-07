@@ -13,12 +13,38 @@ const fs = require('fs');
 
 /* description, toc, installation, usage, license, contributing, tests, questions */
 
-const generateReadme = ({ title, description }) =>
-  `# ${title}
+const generateReadme = ({ title, description, motivation, problemSolved, learned, installation }) =>
+  `
+  # ${title}
   
   ## Description
   
-  ${description}`
+  ${description}
+
+  ## Motivation
+  
+  ${motivation}
+
+  ## Problem Solved
+  
+  ${problemSolved}
+
+  ## What I Learned
+  
+  ${learned}
+
+  ## Table of Contents
+
+  - Installation: #installation
+  - Usage: #usage
+  - Credits: #credits
+  - License: #license
+
+  ## Installation
+  
+  ${installation}
+
+  `
 ;
 
 inquirer
@@ -33,30 +59,29 @@ inquirer
       name: 'description',
       message: 'Please provide a description of your README.',
     },
-    /*
     {
       type: 'input',
-      name: 'hobby',
-      message: 'What is your favorite hobby?',
+      name: 'motivation',
+      message: 'What was your motivation for completing/contributing to this task?',
     },
     {
       type: 'input',
-      name: 'food',
-      message: 'What is your favorite food?',
+      name: 'problemSolved',
+      message: 'What problem(s) were solved with this project/task?',
     },
     {
       type: 'input',
-      name: 'github',
-      message: 'Enter your GitHub Username',
+      name: 'learned',
+      message: 'What did you learn from this project/task?',
     },
     {
       type: 'input',
-      name: 'linkedin',
-      message: 'Enter your LinkedIn URL.',
+      name: 'installation',
+      message: 'Please provide instructions for how to install this utility.',
     },
-    */
 
   ])
+
   .then((responses) => {
     const readMeContent = generateReadme(responses);
 
