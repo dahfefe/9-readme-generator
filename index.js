@@ -5,10 +5,12 @@
 // Function call to initialize app
 // init();
 
+// Calling required file system and NPM package (Inquirer)
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdownExt = require('./utils/generateMarkdown');
 
+// function that creates markdown text with literals to input user responses from command-line prompts
 const generateReadme = 
 ({ title, 
   description, 
@@ -99,6 +101,7 @@ const generateReadme =
   `
 ;
 
+// inquirer prompts needed for obtaining user response per section of README.md file
 inquirer
   .prompt([
     {
@@ -175,6 +178,7 @@ inquirer
 
   ])
 
+  // .then function asynchronously collects responses from user input
   .then((responses) => {
     const readMeContent = generateReadme(responses);
 
@@ -185,12 +189,13 @@ inquirer
     console.log(responses.license);
     */
 
+    // writeFile function generates README file from user responses and error logging to aid in troubleshooting
     fs.writeFile('README_auto.md', readMeContent, (err) =>
       err ? console.log(err) : console.log('Successfully created README.md!')
     );
   });
 
- 
+  // function to render correspoding badge to README file based on user selection
   function renderLicenseBadge(license) {
     const licenseBadges = {
       "MIT License": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
@@ -206,6 +211,7 @@ inquirer
     }
   }
 
+  // function to render correspoding license link to README file based on user selection
   function renderLicenseLink(license) {
     const licenseLinks = {
       "MIT License": "https://opensource.org/license/mit",

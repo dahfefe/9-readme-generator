@@ -10,9 +10,15 @@ SO THAT I can quickly create a professional README for a new project
 
 ## Description
 
-This README.md generator application allows users to generate custom README files using command-line application.
+This README.md generator application allows users to generate custom, high-quality README files using command-line application to collect necessary information through prompts.
 
 This will allow project creators to dedicate more time to the primary project and minimize time needed for the ancillary components (i.e. README files).
+
+The application will be invoked by using the following command:
+
+```bash
+node index.js
+```
 
 GitHub repo link: https://github.com/dahfefe/9-readme-generator
 
