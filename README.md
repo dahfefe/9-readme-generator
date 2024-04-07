@@ -10,7 +10,7 @@ SO THAT I can quickly create a professional README for a new project
 
 ## Description
 
-This README.md generator application allows users to generate custom, high-quality README files using command-line application to collect necessary information through prompts.
+This README.md generator application allows users to generate custom, high-quality, professional README files using command-line application to collect necessary information through prompts.
 
 This will allow project creators to dedicate more time to the primary project and minimize time needed for the ancillary components (i.e. README files).
 
@@ -42,7 +42,6 @@ I became better familiarized with node.js in relation to Inquirer package for ut
 - [License](#license)
 - [Features](#features)
 - [How to Contribute](#contributing)
-- [Tests](#tests)
 - [Any Questions?](#questions)
 
 ## Installation 

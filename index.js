@@ -19,10 +19,13 @@ const generateReadme =
   learned, 
   installation, 
   usage, 
-  credits, 
+  credits1, 
+  credits2, 
+  credits3, 
   license, 
   features, 
-  contributing, 
+  contributing1, 
+  contributing2, 
   tests, 
   username,
   email }) =>
@@ -68,7 +71,11 @@ const generateReadme =
 
   ## Credits
   
-  ${credits}
+  Collaborators: ${credits1}
+
+  Third-party Assets: ${credits2}
+
+  Tutorials Used: ${credits3}
 
   ## License
   
@@ -86,7 +93,11 @@ const generateReadme =
 
   ## Contributing
   
-  ${contributing}
+  There are many ways in which you can participate in this project, for example:
+
+  * [Submit bugs and feature requests]( ${contributing1}), and help us verify as they are checked in
+  * Review [source code changes]( ${contributing2})
+  * Review the [documentation](https://github.com/microsoft/vscode-docs) and make pull requests for anything from typos to additional and new content
 
   ## Tests
   
@@ -141,8 +152,18 @@ inquirer
     },
     {
       type: 'input',
-      name: 'credits',
-      message: 'List your collaborators, if any, with links to their GitHub profiles.',
+      name: 'credits1',
+      message: 'List your collaborators, if any, with links to their GitHub profiles. (only one comprehensive entry allowed here!)',
+    },
+    {
+      type: 'input',
+      name: 'credits2',
+      message: 'If you used any third-party assets that require attribution, list the creators with links to their primary web presence. (only one comprehensive entry allowed here!)',
+    },
+    {
+      type: 'input',
+      name: 'credits3',
+      message: 'If you followed tutorials, include links to those here as well. (only one comprehensive entry allowed here!)',
     },
     {
       type: 'list',
@@ -153,12 +174,17 @@ inquirer
     {
       type: 'input',
       name: 'features',
-      message: 'If your project has a lot of features, list them here.',
+      message: 'If your project has a lot of features, list them here. (only one comprehensive entry allowed here!)',
     },
     {
       type: 'input',
-      name: 'contributing',
-      message: 'If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so.',
+      name: 'contributing1',
+      message: 'To allow users to submit bug and feature requests for contribution, please provide the link to the "Issues" section of your GitHub repository.',
+    },
+    {
+      type: 'input',
+      name: 'contributing2',
+      message: 'To allow users to review source code changes, please provide the link to the "Pull Request" section of your GitHub repository.',
     },
     {
       type: 'input',
