@@ -8,7 +8,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdownExt = require('./utils/generateMarkdown');
-console.log(generateMarkdownExt);
 
 const generateReadme = 
 ({ title, 
@@ -27,8 +26,7 @@ const generateReadme =
   email }) =>
   
 `
-  # ${title} 
-  ${renderLicenseBadge(license)}
+  # ${title} ${renderLicenseBadge(license)}
   
   ## Description
   
@@ -187,7 +185,7 @@ inquirer
     console.log(responses.license);
     */
 
-    fs.writeFile('README.md', readMeContent, (err) =>
+    fs.writeFile('README_auto.md', readMeContent, (err) =>
       err ? console.log(err) : console.log('Successfully created README.md!')
     );
   });
