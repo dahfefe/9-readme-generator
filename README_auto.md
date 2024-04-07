@@ -1,21 +1,21 @@
 
-  # README Generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  # sdgsdg [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   
   ## Description
   
-  An application to help developers more efficiently generator quality README files
+  sdgsdg
 
   ## Motivation
   
-  Help the developer community more efficiently complete tasks and projects
+  sdgsd
 
   ## Problem Solved
   
-  Minimize the time required to compile a README from scratch and instead allow users to have access to an application to generate a custom README and thereby have more time for their development project 
+  sdgsd
 
   ## What I Learned
   
-  Multiple functional tool when using node.js and how to map user inputs to a markdown file
+  sdgsd
 
   ## Table of Contents
 
@@ -23,6 +23,7 @@
   - [Usage](#usage)
   - [Credits](#credits)
   - [License](#license)
+  - [Badges](#badges)
   - [Features](#features)
   - [How to Contribute](#contributing)
   - [Tests](#tests)
@@ -30,42 +31,50 @@
 
   ## Installation 
   
-  1) run "git init" if you do not have a package.JSON 2)...
+  sdgsd
 
   ## Usage
   
-  See real README.md
+  sdgsd
 
   ## Credits
   
-  None
+  Collaborators: sdgsd
+
+  Third-party Assets: sdgsd
+
+  Tutorials Used: sdgds
 
   ## License
   
-  This project is licensed under the MIT License. You can find the license details in the LICENSE file included in this repository.
+  This project is licensed under the Apache License 2.0. You can find the license details in the LICENSE file included in this repository.
 
-  License Link: https://opensource.org/license/mit
+  License Link: http://www.apache.org/licenses/LICENSE-2.0
 
   ## Badges
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Features
   
-  See real README.md
+  sdgdsg
 
   ## Contributing
   
-  Visit my GitHub profile
+  There are many ways in which you can participate in this project, for example:
+
+  * [Submit bugs and feature requests]( sdgsd), and help us verify as they are checked in
+  * Review [source code changes]( sdgsd)
+  * Review the [documentation](https://github.com/microsoft/vscode-docs) and make pull requests for anything from typos to additional and new content
 
   ## Tests
   
-  See real README.md
+  sdgds
 
   ## Questions
   
-  Link to My GitHub: https://github.com/dahfefe
+  Link to My GitHub: https://github.com/sgsd
 
-  If you should have any questions, you can contact me at the following email address: fsmunozteng@gmail.com
+  If you should have any questions, you can contact me at the following email address: sdgsd
 
   

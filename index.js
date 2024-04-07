@@ -71,11 +71,14 @@ const generateReadme =
 
   ## Credits
   
-  Collaborators: ${credits1}
+  Collaborators: 
+  ${credits1}
 
-  Third-party Assets: ${credits2}
+  Third-party Assets: 
+  ${credits2}
 
-  Tutorials Used: ${credits3}
+  Tutorials Used: 
+  ${credits3}
 
   ## License
   
