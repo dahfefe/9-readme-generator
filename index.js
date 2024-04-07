@@ -94,7 +94,7 @@ const generateReadme =
 
   ## Any Questions?
   
-  Link to My GitHub: ${username}
+  Link to My GitHub: https://github.com/${username}
 
   If you should have any questions, you can contact me at the following email address: ${email}
 
