@@ -48,17 +48,17 @@ const generateReadme =
 
   ## Table of Contents
 
-  - Installation: #installation
-  - Usage: #usage
-  - Credits: #credits
-  - License: #license
-  - Badges: #badges
-  - Features: #features
-  - How to Contribute: #contribute
-  - Tests: #tests
-  - Any Questions?: #questions
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  - [Badges](#badges)
+  - [Features](#features)
+  - [How to Contribute](#contributing)
+  - [Tests](#tests)
+  - [Any Questions?](#questions)
 
-  ## Installation
+  ## Installation 
   
   ${installation}
 
@@ -84,7 +84,7 @@ const generateReadme =
   
   ${features}
 
-  ## How to Contribute
+  ## Contributing
   
   ${contributing}
 
@@ -92,7 +92,7 @@ const generateReadme =
   
   ${tests}
 
-  ## Any Questions?
+  ## Questions
   
   Link to My GitHub: https://github.com/${username}
 
