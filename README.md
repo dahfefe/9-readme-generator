@@ -1,5 +1,6 @@
 
-  # sdgfsdg
+  # sdgsdg 
+  {{ renderLicenseBadge(license) }}
   
   ## Description
   
@@ -7,7 +8,7 @@
 
   ## Motivation
   
-  sdgsdg
+  sdgsdgd
 
   ## Problem Solved
   
@@ -15,7 +16,7 @@
 
   ## What I Learned
   
-  sdgsd
+  sdgsdg
 
   ## Table of Contents
 
@@ -23,22 +24,27 @@
   - Usage: #usage
   - Credits: #credits
   - License: #license
+  - Badges: #badges
+  - Features: #features
+  - How to Contribute: #contribute
+  - Tests: #tests
+  - Any Questions?: #questions
 
   ## Installation
   
-  sdgsd
+  sdgsdgsd
 
   ## Usage
   
-  sdgsgd
+  sdgsd
 
   ## Credits
   
-  sdgs
+  gsdgsdg
 
   ## License
   
-  MIT License
+  This project is licensed under the Apache License 2.0. You can find the license details in the LICENSE file included in this repository.
 
   ## Badges
   
@@ -46,20 +52,20 @@
 
   ## Features
   
-  sdgsdg
+  sdg
 
   ## How to Contribute
   
-  sdgsdg
+  g
 
   ## Tests
   
-  sgdsdg
+  sdgsdgs
 
   ## Any Questions?
   
-  Link to My GitHub:  sdgsd
+  Link to My GitHub: sdgsdg
 
-  If you should have any questions, you can contact me at the following email address:  sdgsd
+  If you should have any questions, you can contact me at the following email address: 
 
   
