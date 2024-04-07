@@ -1,21 +1,21 @@
 
-  # sdgsdg [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  # README.md Generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Description
   
-  sdgsdg
+  To minimize time required to create a high-quality README.md file for developers
 
   ## Motivation
   
-  sdgsd
+  To help the developer community minimize time required for non-developing tasks and focus more primarily on the developing process
 
   ## Problem Solved
   
-  sdgsd
+  To maximize time spent on the development process and improve efficiency with less important tasks
 
   ## What I Learned
   
-  sdgsd
+  I learned more about node.js and markdown editing use command-line prompts
 
   ## Table of Contents
 
@@ -31,50 +31,53 @@
 
   ## Installation 
   
-  sdgsd
+  1) Download the required code from my github repo 2)...
 
   ## Usage
   
-  sdgsd
+  1) Ensure code is download and open the cloned repo in your code editor 2)...
 
   ## Credits
   
-  Collaborators: sdgsd
+  Collaborators: 
+  All by myself
 
-  Third-party Assets: sdgsd
+  Third-party Assets: 
+  N/A
 
-  Tutorials Used: sdgds
+  Tutorials Used: 
+  N/A
 
   ## License
   
-  This project is licensed under the Apache License 2.0. You can find the license details in the LICENSE file included in this repository.
+  This project is licensed under the MIT License. You can find the license details in the LICENSE file included in this repository.
 
-  License Link: http://www.apache.org/licenses/LICENSE-2.0
+  License Link: https://opensource.org/license/mit
 
   ## Badges
 
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Features
   
-  sdgdsg
+  node.js, dependency: Inquirer version 8.2.4
 
   ## Contributing
   
   There are many ways in which you can participate in this project, for example:
 
-  * [Submit bugs and feature requests]( sdgsd), and help us verify as they are checked in
-  * Review [source code changes]( sdgsd)
+  * [Submit bugs and feature requests]( link here), and help us verify as they are checked in
+  * Review [source code changes]( link here)
   * Review the [documentation](https://github.com/microsoft/vscode-docs) and make pull requests for anything from typos to additional and new content
 
   ## Tests
   
-  sdgds
+  Going the extra mile...
 
   ## Questions
   
-  Link to My GitHub: https://github.com/sgsd
+  Link to My GitHub: https://github.com/dahfefe
 
-  If you should have any questions, you can contact me at the following email address: sdgsd
+  If you should have any questions, you can contact me at the following email address: fsmunozteng@gmail.com
 
   

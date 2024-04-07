@@ -58,7 +58,9 @@ I became better familiarized with node.js in relation to Inquirer package for ut
 The main case use for this project include the following:
 1) To custom generate a README.md file based on command-line user inputs
 
-## Screenshot of Application
+## Screenshot & Video Tutorial of Application
+
+Video Tutorial: https://watch.screencastify.com/v/adsuAFAfi15uxnn02omE
 
 When initially starting the application, open the terminal and run "node index.js":
 
