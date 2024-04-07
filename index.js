@@ -1,7 +1,4 @@
 
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
 // TODO: Create a function to initialize app
 // function init() {}
 
@@ -53,6 +50,11 @@ const generateReadme =
   - Usage: #usage
   - Credits: #credits
   - License: #license
+  - Badges: #badges
+  - Features: #features
+  - How to Contribute: #contribute
+  - Tests: #tests
+  - Any Questions?: #questions
 
   ## Installation
   
@@ -68,7 +70,7 @@ const generateReadme =
 
   ## License
   
-  ${license}
+  This project is licensed under the ${license}. You can find the license details in the LICENSE file included in this repository.
 
   ## Badges
   
@@ -88,9 +90,9 @@ const generateReadme =
 
   ## Any Questions?
   
-  Link to My GitHub:  ${username}
+  Link to My GitHub: ${username}
 
-  If you should have any questions, you can contact me at the following email address:  ${email}
+  If you should have any questions, you can contact me at the following email address: ${email}
 
   `
 ;
@@ -105,7 +107,7 @@ inquirer
     {
       type: 'input',
       name: 'description',
-      message: 'Please provide a description of your README.',
+      message: 'Please provide a description of your README. What is it and what is the purpose?',
     },
     {
       type: 'input',
@@ -125,7 +127,7 @@ inquirer
     {
       type: 'input',
       name: 'installation',
-      message: 'Please provide instructions for how to install this utility.',
+      message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
     },
     {
       type: 'input',
