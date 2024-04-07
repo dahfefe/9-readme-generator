@@ -1,14 +1,14 @@
 
-  # sdgsdg 
-  {{ renderLicenseBadge(license) }}
+  # sdegsdg 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Description
   
-  sdgsdg
+  sdgdsgs
 
   ## Motivation
   
-  sdgsdgd
+  sgdsdgs
 
   ## Problem Solved
   
@@ -16,7 +16,7 @@
 
   ## What I Learned
   
-  sdgsdg
+  sgsdgd
 
   ## Table of Contents
 
@@ -32,40 +32,42 @@
 
   ## Installation
   
-  sdgsdgsd
+  sdgsdg
 
   ## Usage
   
-  sdgsd
+  sdgds
 
   ## Credits
   
-  gsdgsdg
+  sdgsd
 
   ## License
   
-  This project is licensed under the Apache License 2.0. You can find the license details in the LICENSE file included in this repository.
+  This project is licensed under the MIT License. You can find the license details in the LICENSE file included in this repository.
+
+  License Link: https://opensource.org/license/mit
 
   ## Badges
-  
-  undefined
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Features
   
-  sdg
+  sdgds
 
   ## How to Contribute
   
-  g
+  sdgsdg
 
   ## Tests
   
-  sdgsdgs
+  sdgds
 
   ## Any Questions?
   
-  Link to My GitHub: sdgsdg
+  Link to My GitHub: sdgs
 
-  If you should have any questions, you can contact me at the following email address: 
+  If you should have any questions, you can contact me at the following email address: sdgsd
 
   

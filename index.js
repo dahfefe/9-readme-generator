@@ -19,8 +19,7 @@ const generateReadme =
   installation, 
   usage, 
   credits, 
-  license,
-  badges, 
+  license, 
   features, 
   contributing, 
   tests, 
@@ -29,7 +28,7 @@ const generateReadme =
   
 `
   # ${title} 
-  {{ renderLicenseBadge(license) }}
+  ${renderLicenseBadge(license)}
   
   ## Description
   
@@ -75,9 +74,11 @@ const generateReadme =
   
   This project is licensed under the ${license}. You can find the license details in the LICENSE file included in this repository.
 
+  License Link: ${renderLicenseLink(license)}
+
   ## Badges
-  
-  ${badges}
+
+  ${renderLicenseBadge(license)}
 
   ## Features
   
@@ -180,9 +181,10 @@ inquirer
     const readMeContent = generateReadme(responses);
 
     /*
-    let template = fs.readFile('README.md', 'utf8');
+    let template = fs.readFile("README.md", "utf8");
     console.log(template);
     template = template.replace("{{ renderLicenseBadge(license) }}", renderLicenseBadge(license));
+    console.log(responses.license);
     */
 
     fs.writeFile('README.md', readMeContent, (err) =>
@@ -190,44 +192,35 @@ inquirer
     );
   });
 
-
+ 
   function renderLicenseBadge(license) {
     const licenseBadges = {
-      "MIT License": "[![MIT License](https://opensource.org/license/mit)(https://opensource.org/licenses/MIT)]",
-      "Apache License 2.0": "[![Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)(https://www.apache.org/licenses/LICENSE-2.0)]",
-      "GNU General Public License v3.0": "[![GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)(https://www.gnu.org/licenses/gpl-3.0.en.html)]",
-      "Mozilla Public License 2.0": "[![MPL 2.0](https://www.mozilla.org/en-US/MPL/2.0/)(https://www.mozilla.org/en-US/MPL/2.0/)]",
+      "MIT License": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+      "Apache License 2.0": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "GNU General Public License v3.0": "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
+      "Mozilla Public License 2.0": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
     };
-   
+
     if (licenseBadges[license]) {
-      return licenseBadges[license]
+      return licenseBadges[license];
     } else {
-      return "";
+      return ``;
     }
   }
 
   function renderLicenseLink(license) {
-
-    // Base URL for GitHub licenses
-    const baseUrl = "https://opensource.org/licenses/";
-  
-    // Lowercase and remove whitespace from the license name
-    const normalizedLicense = license.trim().toLowerCase();
-  
-    // Replace common aliases with official names
-    const licenseMap = {
-      "mit": "mit",
-      "gpl": "gpl-3.0", // Default to GPLv3 for ambiguity
-      "apache": "apache-2.0",
+    const licenseLinks = {
+      "MIT License": "https://opensource.org/license/mit",
+      "Apache License 2.0": "http://www.apache.org/licenses/LICENSE-2.0",
+      "GNU General Public License v3.0": "https://www.gnu.org/licenses/gpl-3.0.en.html",
+      "Mozilla Public License 2.0": "https://www.mozilla.org/en-US/MPL/2.0/",
     };
-  
-    // Check if license exists in the map, otherwise use the input directly
-    const licenseName = licenseMap[normalizedLicense] || normalizedLicense;
-  
-    // Construct the full license URL
-    const licenseUrl = baseUrl + licenseName;
-  
-    return licenseUrl;
+
+    if (licenseLinks[license]) {
+      return licenseLinks[license];
+    } else {
+      return ``;
+    }
   
   }
   
